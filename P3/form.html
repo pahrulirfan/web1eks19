@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+<form action="login.php" method="post">
+    <label for="nama">Nama : </label>
+    <input type="text" name="nama" id="nama" required> <br>
+
+    <label for="">Jenis Kelamin : </label>
+    <input type="radio" name="jenis_kelamin" required value="L">Laki - Laki
+    <input type="radio" name="jenis_kelamin" required value="P">Perempuan <br>
+
+    <label>Jurusan : </label>
+    <select name="jurusan" required>
+        <option value="ilkom">ILKOM</option>
+        <option value="ti">TI</option>
+        <option value="b.ing">Bahasa Inggris</option>
+    </select> <br>
+
+    <label>Hobby : </label>
+    <input type="checkbox" name="hoby[]" value="tidur">Tidur
+    <input type="checkbox" name="hoby[]" value="chat">Chatting <br>
+
+    <label>Alamat : </label>
+    <textarea name="alamat" cols="30" rows="2"></textarea> <br>
+
+    <label>Foto :</label>
+    <input type="file" accept="image/*" name="foto"> <br>
+
+    <label>Email :</label>
+    <input type="text" name="email"> <br>
+
+    <input type="submit" value="Simpan" name="simpan">
+    <input type="reset" value="Reset" name="reset">
+</form>
+
+</body>
+</html>
