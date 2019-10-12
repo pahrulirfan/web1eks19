@@ -4,38 +4,40 @@
     <title>Form</title>
 </head>
 <body>
+<div class="container">
+    <form action="proses.php" method="post">
+        <div class="form-group">
+            <label for="nama">Nama : </label>
+            <input class="form-control" type="text" name="txtnama" id="nama" required>
+        </div>
 
-<form action="proses.php" method="post">
-    <label for="nama">Nama : </label>
-    <input type="text" name="txtnama" id="nama" required> <br>
+        <div class="form-group">
+            <label for="">Jenis Kelamin : </label>
+            <input type="radio" name="jenis_kelamin" required value="L">Laki - Laki
+            <input type="radio" name="jenis_kelamin" required value="P">Perempuan <br>
+        </div>
 
-    <label for="">Jenis Kelamin : </label>
-    <input type="radio" name="jenis_kelamin" required value="L">Laki - Laki
-    <input type="radio" name="jenis_kelamin" required value="P">Perempuan <br>
+        <div class="form-group">
+            <label>Jurusan : </label>
+            <select name="jurusan" required class="form-control">
+                <option value="ilkom">ILKOM</option>
+                <option value="ti">TI</option>
+                <option value="b.ing">Bahasa Inggris</option>
+            </select>
+        </div>
+        <label>Hobby : </label>
+        <input type="checkbox" name="hoby[]" value="tidur">Tidur
+        <input type="checkbox" name="hoby[]" value="chat">Chatting <br>
 
-    <label>Jurusan : </label>
-    <select name="jurusan" required>
-        <option value="ilkom">ILKOM</option>
-        <option value="ti">TI</option>
-        <option value="b.ing">Bahasa Inggris</option>
-    </select> <br>
+        <label>Alamat : </label>
+        <textarea class="form-control" name="alamat" cols="30" rows="2"></textarea> <br>
 
-    <label>Hobby : </label>
-    <input type="checkbox" name="hoby[]" value="tidur">Tidur
-    <input type="checkbox" name="hoby[]" value="chat">Chatting <br>
+        <label>Email :</label>
+        <input type="text" name="email"> <br>
 
-    <label>Alamat : </label>
-    <textarea name="alamat" cols="30" rows="2"></textarea> <br>
-
-    <label>Foto :</label>
-    <input type="file" accept="image/*" name="foto"> <br>
-
-    <label>Email :</label>
-    <input type="text" name="email"> <br>
-
-    <input type="submit" value="Simpan" name="simpan">
-    <input type="reset" value="Reset" name="reset">
-</form>
+        <input class="btn btn-primary" type="submit" value="Simpan" name="simpan">
+        <input class="btn btn-danger" type="reset" value="Reset" name="reset">
+    </form>
 
 </body>
 </html>
