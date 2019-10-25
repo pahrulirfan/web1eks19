@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+h2 {
+    color: green;
+    border: 0.5px dashed blue;
+}
+
+.besar {
+    font-size: 26px;
+}
+
+.kuning {
+    color: yellow;
+}
+
+.bingkai {
+    border: 1px solid greenyellow;
+}
