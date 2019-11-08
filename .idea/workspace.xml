@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df27e27-04ef-40b1-9af8-4d305f559a4d" name="Default Changelist" comment="">
+    <list default="true" id="6df27e27-04ef-40b1-9af8-4d305f559a4d" name="Default Changelist" comment="git ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Latihan1/latihan_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="111" column="51" lean-forward="true" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+            <state relative-caret-position="384">
+              <caret line="80" column="47" lean-forward="true" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -29,11 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Latihan1/latihan_tabel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="31" />
-              <folding>
-                <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="1328">
+              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -75,13 +81,13 @@
         <option value="$PROJECT_DIR$/P3/latihan.html" />
         <option value="$PROJECT_DIR$/P3/latihan_form.html" />
         <option value="$PROJECT_DIR$/P3/latihan_tabel.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/P4/style.css" />
         <option value="$PROJECT_DIR$/P4/css.html" />
         <option value="$PROJECT_DIR$/P4/bs.html" />
         <option value="$PROJECT_DIR$/lat.html" />
-        <option value="$PROJECT_DIR$/Latihan1/latihan_tabel.html" />
         <option value="$PROJECT_DIR$/Latihan1/latihan_form.html" />
+        <option value="$PROJECT_DIR$/Latihan1/latihan_tabel.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -97,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,10 +115,27 @@
               <item name="ekstensi" type="462c0819:PsiDirectoryNode" />
               <item name="Latihan1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ekstensi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ekstensi" type="462c0819:PsiDirectoryNode" />
+              <item name="P3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ekstensi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ekstensi" type="462c0819:PsiDirectoryNode" />
+              <item name="P4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ekstensi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ekstensi" type="462c0819:PsiDirectoryNode" />
+              <item name="P4" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +208,10 @@
       <workItem from="1570849749036" duration="293000" />
       <workItem from="1571387604474" duration="12517000" />
       <workItem from="1571629680327" duration="607000" />
-      <workItem from="1571993894421" duration="1485000" />
+      <workItem from="1571993894421" duration="5072000" />
+      <workItem from="1572232697951" duration="384000" />
+      <workItem from="1572299426232" duration="26000" />
+      <workItem from="1573192164899" duration="151000" />
     </task>
     <task id="LOCAL-00001" summary="update ekstensi">
       <created>1570786100093</created>
@@ -248,13 +273,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33898000" />
+    <option name="totallyTimeSpent" value="38046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18655589" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19410875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,12 +381,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/P4/bootstrap/css/bootstrap.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-224">
           <caret column="4038" lean-forward="true" selection-start-column="4038" selection-end-column="4038" />
         </state>
       </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/P4/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -394,34 +419,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lat.html">
+    <entry file="file://$PROJECT_DIR$/lat.html" />
+    <entry file="file://$PROJECT_DIR$/Latihan1/latihan_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="384">
+          <caret line="80" column="47" lean-forward="true" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Latihan1/latihan_tabel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="1328">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Latihan1/latihan_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="111" column="51" lean-forward="true" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
