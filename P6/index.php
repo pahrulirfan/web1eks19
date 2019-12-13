@@ -23,6 +23,7 @@ require 'connect.php';
     </thead>
     <tbody>
     <?php
+    // membuat query dari PHP
     $query = mysqli_query($koneksi, "select * from skripsi");
     $no = 1;
     while ($data = mysqli_fetch_array($query)) :
