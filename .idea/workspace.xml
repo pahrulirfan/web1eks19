@@ -126,7 +126,7 @@
       <workItem from="1575774332238" duration="376000" />
       <workItem from="1576056285942" duration="3818000" />
       <workItem from="1576121471592" duration="180000" />
-      <workItem from="1576226474318" duration="2753000" />
+      <workItem from="1576226474318" duration="3048000" />
     </task>
     <task id="LOCAL-00001" summary="update ekstensi">
       <created>1570786100093</created>
@@ -206,5 +206,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="487" y="291" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1575545222642" />
+    <state x="214" y="12" key="SettingsEditor" timestamp="1576230126176">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="214" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1576230126176" />
   </component>
 </project>

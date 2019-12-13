@@ -6,11 +6,12 @@ require 'connect.php';
 <html>
 <head>
     <title>Data Skripsi</title>
+    <link rel="stylesheet" href="../P4/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <h2>Data Skripsi</h2>
 <hr>
-<table border="1" width="70%">
+<table class="table table-bordered" border="1" width="70%">
     <thead>
     <tr>
         <th>No</th>
