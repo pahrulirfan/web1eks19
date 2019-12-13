@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df27e27-04ef-40b1-9af8-4d305f559a4d" name="Default Changelist" comment="git ignore">
+    <list default="true" id="6df27e27-04ef-40b1-9af8-4d305f559a4d" name="Default Changelist" comment="add style">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/P6/index.php" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/codealike.json&#10;true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/P6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,16 +58,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\ekstensi\P4\bootstrap\js" />
+      <recent name="D:\xampp\htdocs\ekstensi\Latihan1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\ekstensi\P6" />
       <recent name="D:\xampp\htdocs\ekstensi\uts" />
       <recent name="D:\xampp\htdocs\ekstensi\P4\bootstrap\img" />
       <recent name="D:\xampp\htdocs\ekstensi" />
       <recent name="D:\xampp\htdocs\ekstensi\P3" />
-      <recent name="D:\xampp\htdocs\ekstensi\assets\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\ekstensi\P4\bootstrap\js" />
-      <recent name="D:\xampp\htdocs\ekstensi\Latihan1" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.multimedia.html">
@@ -126,7 +127,7 @@
       <workItem from="1575774332238" duration="376000" />
       <workItem from="1576056285942" duration="3818000" />
       <workItem from="1576121471592" duration="180000" />
-      <workItem from="1576226474318" duration="3048000" />
+      <workItem from="1576226474318" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="update ekstensi">
       <created>1570786100093</created>
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571387772521</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add style">
+      <created>1576230145161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576230145161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,9 +207,14 @@
     <MESSAGE value="hapus tambah data css" />
     <MESSAGE value="eksternal css" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="add style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add style" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1576230450699">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1576230450699" />
     <state x="487" y="291" key="NewPhpFileDialog" timestamp="1575545222642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -210,5 +223,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="214" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1576230126176" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1576230148939">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1576230148939" />
   </component>
 </project>
