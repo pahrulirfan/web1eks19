@@ -30,9 +30,9 @@ require 'connect.php';
         <tr>
             <td><?= $no++ ?></td>
             <td><?php echo $data['nim']; ?> </td>
-            <td><?=$data['nama']; ?> </td>
-            <td><?=$data['judul']; ?> </td>
-            <td><?=$data['pembimbing']; ?> </td>
+            <td><?= $data['nama']; ?> </td>
+            <td><?= $data['judul']; ?> </td>
+            <td><?= $data['pembimbing']; ?> </td>
             <td>Update | Delete</td>
         </tr>
     <?php
