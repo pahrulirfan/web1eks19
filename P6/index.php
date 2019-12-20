@@ -11,7 +11,7 @@ require 'connect.php';
 <div class="container">
     <h2>Data Skripsi</h2>
     <hr>
-    <a href="create.php">Create Data</a>
+    <a href="create.php" class="btn btn-outline-primary">Create Data</a>
     <br> <br>
     <table class="table table-bordered" border="1" width="70%">
         <thead>
@@ -38,7 +38,10 @@ require 'connect.php';
                 <td><?= $data['judul']; ?> </td>
                 <td><?= $data['pembimbing']; ?> </td>
                 <td>
-                    <a onclick="return confirm('Yakin ?')" href="delete.php?id=<?= $data['id']; ?>">Delete</a>
+                    <a class="btn btn-danger btn-sm" onclick="return confirm('Yakin ?')"
+                       href="delete.php?id=<?= $data['id']; ?>">Delete</a>
+
+                    <a class="btn btn-warning btn-sm" href="update.php?id=<?= $data['id']; ?>">Update</a>
                 </td>
             </tr>
         <?php
