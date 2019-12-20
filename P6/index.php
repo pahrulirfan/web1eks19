@@ -1,7 +1,6 @@
 <?php
 require 'connect.php';
 ?>
-
 <!doctype html>
 <html>
 <head>
@@ -12,6 +11,8 @@ require 'connect.php';
 <div class="container">
     <h2>Data Skripsi</h2>
     <hr>
+    <a href="create.php">Create Data</a>
+    <br> <br>
     <table class="table table-bordered" border="1" width="70%">
         <thead>
         <tr>
@@ -36,7 +37,9 @@ require 'connect.php';
                 <td><?= $data['nama']; ?> </td>
                 <td><?= $data['judul']; ?> </td>
                 <td><?= $data['pembimbing']; ?> </td>
-                <td>Update | Delete</td>
+                <td>
+                    <a onclick="return confirm('Yakin ?')" href="delete.php?id=<?= $data['id']; ?>">Delete</a>
+                </td>
             </tr>
         <?php
         endwhile;
