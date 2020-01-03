@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html>
 <head>
@@ -11,6 +14,31 @@
             <div class="card">
                 <div class="card-header bg-success">Login</div>
                 <div class="card-body">
+                    <?php
+                    require 'connect.php';
+                    if (isset($_POST['login'])) {
+                        $email = $_POST['txtemail'];
+                        $password = sha1($_POST['txtpassword']);
+
+                        $query = "Select * from user where email='$email' and password='$password'";
+                        //proses query
+                        $data = mysqli_query($koneksi, $query);
+                        //cek data ke database apakah ada data yang terdaftar
+                        if (mysqli_num_rows($data) > 0) {
+                            // jika ada data, ambil data tersebut, masukkan kedalam variable result
+                            $result = mysqli_fetch_array($data);
+                            // tambahkan variable session yg nanti digunakan untuk pengecekan login
+                            $_SESSION['nama'] = $result['nama'];
+                            $_SESSION['status'] = $result['status'];
+                            $_SESSION['login'] = TRUE;
+                            // redirect ke file index
+                            header('location: index.php');
+                        } else {
+                            // kalau email dan password salah, kasi keterangan error.
+                            echo "<div class='alert alert-danger'>Username/Password Salah</div>";
+                        }
+                    }
+                    ?>
 
                     <form action="" method="post">
                         <div class="form-group">
