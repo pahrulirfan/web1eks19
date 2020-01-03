@@ -20,13 +20,13 @@ if (isset($_POST['submit'])) {
     $pembimbing = $_POST['txtpembimbing'];
 
     $query = "INSERT INTO skripsi VALUES(NULL, '$nim', '$nama', 
-                '$judul', '$pembimbing')";
+                '$judul', '$pembimbing', now())";
 
     $proses = mysqli_query($koneksi, $query);
     if ($proses) {
         header('location: index.php');
     } else {
-        echo 'Anda kurang beruntung';
+        echo mysqli_error($koneksi);
     }
 }
 ?>

@@ -28,7 +28,7 @@ require 'connect.php';
         <tbody>
         <?php
         // membuat query dari PHP
-        $query = mysqli_query($koneksi, "select * from skripsi ORDER BY create_at asc ");
+        $query = mysqli_query($koneksi, "select * from skripsi ORDER BY create_at desc ");
         $no = 1;
         while ($data = mysqli_fetch_array($query)) :
             ?>
