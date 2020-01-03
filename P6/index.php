@@ -21,13 +21,14 @@ require 'connect.php';
             <th>Nama</th>
             <th>Judul</th>
             <th>Pembimbing</th>
+            <th>Bulan</th>
             <th>Aksi</th>
         </tr>
         </thead>
         <tbody>
         <?php
         // membuat query dari PHP
-        $query = mysqli_query($koneksi, "select * from skripsi");
+        $query = mysqli_query($koneksi, "select * from skripsi ORDER BY create_at asc ");
         $no = 1;
         while ($data = mysqli_fetch_array($query)) :
             ?>
@@ -37,6 +38,7 @@ require 'connect.php';
                 <td><?= $data['nama']; ?> </td>
                 <td><?= $data['judul']; ?> </td>
                 <td><?= $data['pembimbing']; ?> </td>
+                <td><?= date('D, d/M/Y H:i:s', strtotime($data['create_at'])); ?></td>
                 <td>
                     <a class="btn btn-danger btn-sm" onclick="return confirm('Yakin ?')"
                        href="delete.php?id=<?= $data['id']; ?>">Delete</a>
