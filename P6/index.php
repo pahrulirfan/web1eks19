@@ -1,4 +1,8 @@
 <?php
+session_start();
+if ($_SESSION['login'] != true) {
+    header('location: login.php');
+}
 require 'connect.php';
 ?>
 <!doctype html>
@@ -9,9 +13,10 @@ require 'connect.php';
 </head>
 <body>
 <div class="container">
-    <h2>Data Skripsi</h2>
+    <h2>Data Skripsi - <?php echo $_SESSION['nama'] . ' Status : ' . $_SESSION['status']; ?></h2>
     <hr>
     <a href="create.php" class="btn btn-outline-primary">Create Data</a>
+    <a href="logout.php" class="btn btn-outline-warning float-right">Logout</a>
     <br> <br>
     <table class="table table-bordered" border="1" width="70%">
         <thead>
@@ -40,9 +45,11 @@ require 'connect.php';
                 <td><?= $data['pembimbing']; ?> </td>
                 <td><?= date('D, d/M/Y H:i:s', strtotime($data['create_at'])); ?></td>
                 <td>
-                    <a class="btn btn-danger btn-sm" onclick="return confirm('Yakin ?')"
-                       href="delete.php?id=<?= $data['id']; ?>">Delete</a>
-
+                    <?php
+                    if ($_SESSION['status'] == 'admin') { ?>
+                        <a class="btn btn-danger btn-sm" onclick="return confirm('Yakin ?')"
+                           href="delete.php?id=<?= $data['id']; ?>">Delete</a>
+                    <?php } ?>
                     <a class="btn btn-warning btn-sm" href="update.php?id=<?= $data['id']; ?>">Update</a>
                 </td>
             </tr>

@@ -29,6 +29,7 @@ session_start();
                             $result = mysqli_fetch_array($data);
                             // tambahkan variable session yg nanti digunakan untuk pengecekan login
                             $_SESSION['nama'] = $result['nama'];
+                            $_SESSION['email'] = $result['email'];
                             $_SESSION['status'] = $result['status'];
                             $_SESSION['login'] = TRUE;
                             // redirect ke file index
