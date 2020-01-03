@@ -45,8 +45,7 @@ require 'connect.php';
                 <td><?= $data['pembimbing']; ?> </td>
                 <td><?= date('D, d/M/Y H:i:s', strtotime($data['create_at'])); ?></td>
                 <td>
-                    <?php
-                    if ($_SESSION['status'] == 'admin') { ?>
+                    <?php if ($_SESSION['status'] == 'admin') { ?>
                         <a class="btn btn-danger btn-sm" onclick="return confirm('Yakin ?')"
                            href="delete.php?id=<?= $data['id']; ?>">Delete</a>
                     <?php } ?>
