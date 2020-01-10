@@ -9,14 +9,13 @@ require 'connect.php';
 <body>
 <h2>Data UAS</h2>
 <hr>
-<table border="1" width="50%" cellspacing="0" cellpadding="3">
+<table border="1" width="70%" cellspacing="0" cellpadding="3">
   <tr>
     <th width="2%">No</th>
     <th>Nama</th>
     <th>Alamat</th>
     <th>Aksi</th>
   </tr>
-
   <?php
   $no = 1;
   $query = mysqli_query($setting, "SELECT * FROM uas");
@@ -26,7 +25,10 @@ require 'connect.php';
       <td><?php echo $no++; ?></td>
       <td><?php echo $row['Nama']; ?></td>
       <td><?php echo $row['alamat']; ?></td>
-      <td></td>
+      <td>
+        <a href="hapus.php?id=<?php echo $row['id'] ?>">Hapus</a>
+        <a href="ubah.php?id=<?php echo $row['id'] ?>">Ubah</a>
+      </td>
     </tr>
     <?php
   }
