@@ -9,6 +9,10 @@ require 'connect.php';
 <body>
 <h2>Data UAS</h2>
 <hr>
+
+<a href="tambah.php">Tambah Data</a>
+<br> <br>
+
 <table border="1" width="70%" cellspacing="0" cellpadding="3">
   <tr>
     <th width="2%">No</th>
