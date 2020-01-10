@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 03, 2020 at 10:45 AM
+-- Generation Time: Jan 10, 2020 at 10:41 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.23
 
@@ -19,6 +19,29 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_ekstensi`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `skripsi`
+--
+
+CREATE TABLE `skripsi` (
+  `id` int(11) NOT NULL,
+  `nim` varchar(10) NOT NULL,
+  `nama` varchar(50) NOT NULL,
+  `judul` varchar(255) NOT NULL,
+  `pembimbing` varchar(50) NOT NULL,
+  `create_at` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `skripsi`
+--
+
+INSERT INTO `skripsi` (`id`, `nim`, `nama`, `judul`, `pembimbing`, `create_at`) VALUES
+(2, '32038489', 'qwe qwe', 'sistem doang', 'Dr. Anthony', '2019-12-18 02:06:20'),
+(4, '123342343', 'qwe qwe', 'sistem doang', 'Dr. Anthony', '2019-12-25 12:06:20');
 
 -- --------------------------------------------------------
 
@@ -39,11 +62,18 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `email`, `password`, `status`) VALUES
-(1, 'Pahrul Irfan', 'admin@gmail.com', 'f4542db9ba30f7958ae42c113dd87ad21fb2eddb', 'admin');
+(1, 'Pahrul Irfan', 'admin@gmail.com', 'f4542db9ba30f7958ae42c113dd87ad21fb2eddb', 'admin'),
+(2, 'Irfan', 'operator@gmail.com', 'f4542db9ba30f7958ae42c113dd87ad21fb2eddb', 'operator');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `skripsi`
+--
+ALTER TABLE `skripsi`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `user`
@@ -56,10 +86,15 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `skripsi`
+--
+ALTER TABLE `skripsi`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
